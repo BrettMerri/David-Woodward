@@ -1,0 +1,17 @@
+{
+  "name": "reactchartsbackend",
+  "version": "1.0.0",
+  "description": "React Charts Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "node-fetch": "^1.7.3"
+  },
+  "author": "Brett Merrifield",
+  "license": "ISC"
+}
