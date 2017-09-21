@@ -1,0 +1,38 @@
+.section {
+    margin-bottom: 20px;    
+}
+
+.full-width {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.valign-text-container {
+    display:flex;
+    align-items:center;
+}
+
+.flex-first {
+    order: 1;
+}
+
+.flex-last {
+    order: 2;
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 22px;
+    }
+    .flex-first {
+        order: 0;
+    }
+    
+    .flex-last {
+        order: 0;
+    }
+}
