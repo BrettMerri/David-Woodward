@@ -6,13 +6,11 @@ import NotFound from './NotFound/NotFound';
 import './Main.css';
 
 const Main = () => (
-  <div className="container main">
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/about-david' component={About}/>
-      <Route component={NotFound} />
-    </Switch>
-  </div>
+  <Switch>
+    <Route exact path='/' component={Home}/>
+    <Route path='/about-david' component={About}/>
+    <Route component={NotFound} />
+  </Switch>
 );
 
 export default Main;
