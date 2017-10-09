@@ -8,10 +8,11 @@ const Home = () => (
         <div className="header-content-inner">
           <h1 className="title">David J. Woodward Scholarship Fund</h1>
           <p>established by Tim and Christine Woodward in memory of their son David.</p>
+          <button className="btn btn-default">Donate</button>
         </div>
       </div>
     </header>
-    <div className="container main">
+    <div className="main">
       <div className="row section">
         <div className="col">
           <p>The David J. Woodward Scholarship Fund was established by Tim and Christine Woodward in memory of their son David. Applicants must have career goal of becoming a certified General Motors Technician (Automotive Service Education Program). The scholarship will be awarded to a student with a financial need who displays a commitment to serving others (in school, their community, or at home), a strong work ethic, and leadership skills associated to the automotive field.</p>
